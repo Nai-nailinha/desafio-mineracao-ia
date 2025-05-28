@@ -1,0 +1,9 @@
+{
+  "index_name": "documentos-inteligentes",
+  "fields": [
+    { "name": "titulo", "type": "string" },
+    { "name": "conteudo", "type": "text" },
+    { "name": "tags", "type": "collection(string)" }
+  ],
+  "searchableFields": ["conteudo", "tags"]
+}
